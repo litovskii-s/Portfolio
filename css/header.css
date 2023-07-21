@@ -1,0 +1,31 @@
+.header {
+  position: relative;
+}
+.header__logo {
+  color: var(--text-color);
+  font-size: 30px;
+  display: inline-block;
+  padding-top: 20px;
+  padding-left: 30px;
+  position: absolute;
+}
+.header-nav__list {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: end;
+      -ms-flex-pack: end;
+          justify-content: end;
+  gap: 20px;
+  padding-right: 40px;
+  padding-top: 30px;
+  padding-bottom: 50px;
+}
+.header-nav-list__link:hover {
+  color: var(--brand-color);
+  -webkit-transition: 1000ms;
+  transition: 1000ms;
+}
+.header-nav-list__home {
+  color: var(--brand-color);
+}

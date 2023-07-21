@@ -1,0 +1,27 @@
+.header {
+    position: relative;
+
+    &__logo {
+        color:var(--text-color);
+        font-size: 30px;
+        display: inline-block;
+        padding-top: 20px;
+        padding-left: 30px;
+        position: absolute;
+    } 
+    &-nav__list {
+        display: flex;
+        justify-content: end;
+        gap: 20px;
+        padding-right: 40px;
+        padding-top: 30px;
+        padding-bottom: 50px;
+    }
+    &-nav-list__link:hover {
+        color: var(--brand-color);
+        transition: 1000ms;
+    }
+    &-nav-list__home {
+        color: var(--brand-color);
+    }
+}

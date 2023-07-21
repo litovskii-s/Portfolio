@@ -1,0 +1,31 @@
+:root {
+    --brand-color: #118DA8;
+    --text-color: #FFFFFF;
+    --background-color: #191919;
+    --card-color: #000000;
+    --description-color: rgba(255, 255, 255, 0.7);
+    ;
+}
+body {
+    font-family: 'DM Sans', sans-serif;
+    font-size: 18px;
+    font-weight: normal;
+    background-color: var(--background-color);
+    max-width: 1440px;
+    margin: auto;
+}
+img {
+    display: block;
+}
+a {
+    text-decoration: none;
+    color: var(--text-color);
+}
+li {
+    list-style-type: none;
+}
+h1, h2, h3, h4, h5, h6, p, ul {
+    margin: 0;
+    padding: 0;
+    color: var(--text-color);
+}

@@ -1,0 +1,310 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Podcast</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=DM+Sans:opsz,wght@9..40,400;9..40,700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="/style.css">
+</head>
+<body>
+    <header class="header">
+        <div class="header__logo">
+            Castaway
+        </div>
+        <nav class="header__nav">
+            <ul class="header-nav__list">
+                <li><a href="" class="header-nav-list__home">Home</a></li>
+                <li><a href="" class="header-nav-list__link">Episodes</a></li>
+                <li><a href="" class="header-nav-list__link">About</a></li>
+                <li><a href="" class="header-nav-list__link">Contact</a></li>
+            </ul>
+        </nav>
+    </header>   
+    <main>
+        <section class="info">
+            <div class="info__container"></div>
+            <div class="info__content"> 
+                <h1 class="info__title">Take your podcast to the next <span class="info-title__big-word">level</span></h1>
+                <div class="info-content__listen">Listen on</div>
+                <div class="info-content__send">
+                    <a href="https://open.spotify.com/" class="info-content-send__link" target="_blank">
+                        <svg  class="info-content-send-link__spotify" width="40" height="40">
+                            <use href="./images/symbol-defs.svg#icon-social"></use>
+                        </svg>
+                    </a>
+                    <a href="https://pocketcasts.com/" class="info-content-send__link" target="_blank">
+                        <svg  class="info-content-send-link__pocket-casts" width="40" height="40">
+                            <use href="./images/symbol-defs.svg#icon-social-4"></use>
+                        </svg>
+                    </a>
+                    <a href="https://soundcloud.com/" class="info-content-send__link" target="_blank">
+                        <svg  class="info-content-send-link__soundcloud" width="40" height="40">
+                            <use href="./images/symbol-defs.svg#icon-icon-10"></use>
+                        </svg>
+                    </a>
+                    <a href="https://www.apple.com/ua/apple-podcasts/" class="info-content-send__link" target="_blank">
+                        <svg  class="info-content-send-link__apple-podcast" width="40" height="40">
+                            <use href="./images/symbol-defs.svg#icon-apple-podcasts-icon"></use>
+                        </svg>
+                    </a>
+                    <a href="https://overcast.fm/" class="info-content-send__link" target="_blank">
+                        <svg  class="info-content-send-link__overcast" width="40" height="40">
+                            <use href="./images/symbol-defs.svg#icon-social-1"></use>
+                        </svg>
+                    </a>
+                </div>
+            </div>
+            
+        </section>
+        <section class="episodes">
+            <div class="episodes__header">
+                <h2 class="episodes-header__title">Latest episodes</h2>
+                <button type="button" class="episodes-header__view">View all episodes</button>
+            </div>
+            <div class="episodes__card">
+                <img src="/images/IMAGE (1).jpg" alt="sound equipment" class="episodes-card__image">
+                <div>
+                    <h3 class="episodes-card__small-title">Gear</h3>
+                    <h3 class="episodes-card__episode-number">Episode 3</h3>
+                    <h2 class="episodes-card__main-title">Should you get outboard audio gear?</h2>
+                    <p class="episodes-card__description">Is hardware really worth it when it comes to podcasting? The answer is...it depends. Here’s our reasons on why you might want to consider picking something up.</p>
+                    <button type="button" class="episodes-card__description-button">View Episode Details</button>
+                </div>
+            </div>
+            <div class="episodes__card">
+                <img src="/images/IMAGE (2).jpg" alt="microphone for podcast" class="episodes-card__image">
+                <div>
+                    <h3 class="episodes-card__small-title">Tips & Tricks</h3>
+                    <h3 lass="episodes-card__episode-number">Episode 2</h3>
+                    <h2 class="episodes-card__main-title">Mic tricks to take you to the next level</h2>
+                    <p class="episodes-card__description">Stop rolling with those default settings on your mic. These small tweaks will take you from sounding good to great.  </p>
+                    <button type="button" class="episodes-card__description-button">View Episode Details</button>
+                </div>
+            </div>
+            <div class="episodes__card">
+                <img src="/images/IMAGE (3).jpg" alt="man hosting a podcast" class="episodes-card__image">
+                <div>
+                    <h3 class="episodes-card__small-title">Gear</h3>
+                    <h3 lass="episodes-card__episode-number">Episode 1</h3>
+                    <h2 class="episodes-card__main-title">The best microphone under $200</h2>
+                    <p class="episodes-card__description">With so many microphones on the market, how are you supposed to know what’s the best? Take a look at our top picks.</p>
+                    <button type="button" class="episodes-card__description-button">View Episode Details</button>
+                </div>
+            </div>
+        </section>
+        <section class="portfolio">
+            <img src="/images/IMAGE (4).jpg" alt="" class="portfolio__avatar">
+            <div class="portfolio__container">
+                <button type="button" class="portfolio-container__button">
+                    <svg  class="portfolio-container__icon" width="100" height="40">
+                        <use href="./images/symbol-defs.svg#icon-arrow"></use>
+                    </svg>
+                </button>
+                <h3 class="portfolio-container__go">Meet your host</h3>
+                <h2 class="portfolio-container__title">Jacob Paulaner</h2>
+                <p class="portfolio-container__paragraph">Jacob has a background in audio engineering, and has been podcasting since the early days.</p>
+                <p class="portfolio-container__paragraph">He’s here to help you level up your game by sharing everything he’s learned along the way.</p>
+            </div>
+        </section>
+        <section class="subscribe">
+            <div>
+                <p class="subscribe__text">Email Newsletter</p>
+                <h2 class="subscribe__title">Subscribe <br> for updates</h2>
+            </div>
+            <div>
+                <form action="" class="subscribe__form">
+                    <input type="text" placeholder="Name" class="subscribe-form__field" id="myName">
+                    <input type="email" placeholder="Email" class="subscribe-form__field" id="myEmail">
+                    <button type="submit" class="subscribe-form__buttom">Submit</button>
+                </form>
+            </div>
+        </section>
+        <section class="reviews">
+            <div class="reviews__card">
+                <svg  class="header__icon" width="18" height="18">
+                    <use href="./images/symbol-defs.svg#icon-IMAGE-6"></use>
+                </svg>
+                <svg  class="header__icon" width="18" height="18">
+                    <use href="./images/symbol-defs.svg#icon-IMAGE-6"></use>
+                </svg>
+                <svg  class="header__icon" width="18" height="18">
+                    <use href="./images/symbol-defs.svg#icon-IMAGE-6"></use>
+                </svg>
+                <svg  class="header__icon" width="18" height="18">
+                    <use href="./images/symbol-defs.svg#icon-IMAGE-6"></use>
+                </svg>
+                <svg  class="header__icon" width="18" height="18">
+                    <use href="./images/symbol-defs.svg#icon-IMAGE-6"></use>
+                </svg>
+                <h3 class="reviews__content">I can’t recommend this podcast enough</h3>
+                <p class="reviews__autor">Betty Lacey</p>
+            </div>
+            <div class="reviews__card">
+                <svg  class="header__icon" width="18" height="18">
+                    <use href="./images/symbol-defs.svg#icon-IMAGE-6"></use>
+                </svg>
+                <svg  class="header__icon" width="18" height="18">
+                    <use href="./images/symbol-defs.svg#icon-IMAGE-6"></use>
+                </svg>
+                <svg  class="header__icon" width="18" height="18">
+                    <use href="./images/symbol-defs.svg#icon-IMAGE-6"></use>
+                </svg>
+                <svg  class="header__icon" width="18" height="18">
+                    <use href="./images/symbol-defs.svg#icon-IMAGE-6"></use>
+                </svg>
+                <svg  class="header__icon" width="18" height="18">
+                    <use href="./images/symbol-defs.svg#icon-IMAGE-6"></use>
+                </svg>
+                <h3 class="reviews__content">Jacob is the best in the business</h3>
+                <p class="reviews__autor">Adam Driver</p>
+            </div>
+            <div class="reviews__card">
+                <svg  class="header__icon" width="18" height="18">
+                    <use href="./images/symbol-defs.svg#icon-IMAGE-6"></use>
+                </svg>
+                <svg  class="header__icon" width="18" height="18">
+                    <use href="./images/symbol-defs.svg#icon-IMAGE-6"></use>
+                </svg>
+                <svg  class="header__icon" width="18" height="18">
+                    <use href="./images/symbol-defs.svg#icon-IMAGE-6"></use>
+                </svg>
+                <svg  class="header__icon" width="18" height="18">
+                    <use href="./images/symbol-defs.svg#icon-IMAGE-6"></use>
+                </svg>
+                <svg  class="header__icon" width="18" height="18">
+                    <use href="./images/symbol-defs.svg#icon-IMAGE-6"></use>
+                </svg>
+                <h3 class="reviews__content">A wealth of audio knowledge</h3>
+                <p class="reviews__autor">Marcus Brown</p>
+            </div>
+            <div class="reviews__card">
+                <svg  class="header__icon" width="18" height="18">
+                    <use href="./images/symbol-defs.svg#icon-IMAGE-6"></use>
+                </svg>
+                <svg  class="header__icon" width="18" height="18">
+                    <use href="./images/symbol-defs.svg#icon-IMAGE-6"></use>
+                </svg>
+                <svg  class="header__icon" width="18" height="18">
+                    <use href="./images/symbol-defs.svg#icon-IMAGE-6"></use>
+                </svg>
+                <svg  class="header__icon" width="18" height="18">
+                    <use href="./images/symbol-defs.svg#icon-IMAGE-6"></use>
+                </svg>
+                <svg  class="header__icon" width="18" height="18">
+                    <use href="./images/symbol-defs.svg#icon-IMAGE-6"></use>
+                </svg>
+                <h3 class="reviews__content">Every episode is a gem!</h3>
+                <p class="reviews__autor">Jessica Knowl</p>
+            </div>
+            <div class="reviews__card">
+                <svg  class="header__icon" width="18" height="18">
+                    <use href="./images/symbol-defs.svg#icon-IMAGE-6"></use>
+                </svg>
+                <svg  class="header__icon" width="18" height="18">
+                    <use href="./images/symbol-defs.svg#icon-IMAGE-6"></use>
+                </svg>
+                <svg  class="header__icon" width="18" height="18">
+                    <use href="./images/symbol-defs.svg#icon-IMAGE-6"></use>
+                </svg>
+                <svg  class="header__icon" width="18" height="18">
+                    <use href="./images/symbol-defs.svg#icon-IMAGE-6"></use>
+                </svg>
+                <svg  class="header__icon" width="18" height="18">
+                    <use href="./images/symbol-defs.svg#icon-IMAGE-6"></use>
+                </svg>
+                <h3 class="reviews__content">Whoa whoa, let me take some notes!</h3>
+                <p class="reviews__autor">Scott Adams</p>
+            </div>
+            <div class="reviews__card">
+                <svg  class="header__icon" width="18" height="18">
+                    <use href="./images/symbol-defs.svg#icon-IMAGE-6"></use>
+                </svg>
+                <svg  class="header__icon" width="18" height="18">
+                    <use href="./images/symbol-defs.svg#icon-IMAGE-6"></use>
+                </svg>
+                <svg  class="header__icon" width="18" height="18">
+                    <use href="./images/symbol-defs.svg#icon-IMAGE-6"></use>
+                </svg>
+                <svg  class="header__icon" width="18" height="18">
+                    <use href="./images/symbol-defs.svg#icon-IMAGE-6"></use>
+                </svg>
+                <svg  class="header__icon" width="18" height="18">
+                    <use href="./images/symbol-defs.svg#icon-IMAGE-6"></use>
+                </svg>
+                <h3 class="reviews__content">I’ve upped my game considerably since I started listening</h3>
+                <p class="reviews__autor">Steven Blast</p>
+            </div>
+        </section>
+    </main>
+    <footer class="footer">
+        <div class="footer__logo">Castaway
+            <div class="footer__social">
+                <a href="https://www.instagram.com/" target="_blank">
+                    <svg  class="footer__icon" width="24" height="24">
+                        <use href="./images/symbol-defs.svg#icon-IMAGE-7"></use>
+                    </svg>
+                </a>
+                <a href="https://twitter.com/" target="_blank">
+                    <svg  class="footer__icon" width="24" height="24">
+                        <use href="./images/symbol-defs.svg#icon-Vector-6"></use>
+                    </svg>
+                </a>
+                <a href="https://facebook.com/" target="_blank">
+                    <svg  class="footer__icon" width="24" height="24">
+                        <use href="./images/symbol-defs.svg#icon-Vector-7"></use>
+                    </svg>
+                </a>
+            </div>
+        </div>
+        <div class="footer__nav">
+            <ul>
+                <li class="footer-nav__list"><a href="#">Home</a></li>
+                <li class="footer-nav__list"><a href="#">About</a></li>
+                <li class="footer-nav__list"><a href="#">Episodes</a></li>
+                <li class="footer-nav__list"><a href="#">Contact</a></li>
+            </ul>
+        </div>
+        <div class="footer__nav">
+            <ul>
+                <li class="footer-nav__list"><a href="#">Style Guide</a></li>
+                <li class="footer-nav__list"><a href="#">Instructions</a></li>
+                <li class="footer-nav__list"><a href="#">Changelog</a></li>
+                <li class="footer-nav__list"><a href="#">Credit</a></li>
+                <li class="footer-nav__list"><a href="#">Powered by Webflow</a></li>
+                <li class="footer-nav__list"><a href="#">Licenses</a></li>
+            </ul>
+        </div>
+        <div class="footer__send">
+            <a href="https://open.spotify.com/" class="footer-send__link" target="_blank">
+                <svg  class="footer-sen-link__spotify" width="40" height="40">
+                    <use href="./images/symbol-defs.svg#icon-social"></use>
+                </svg>
+            </a>
+            <a href="https://pocketcasts.com/" class="footer-send__link" target="_blank">
+                <svg  class="footer-send-link__pocket-casts" width="40" height="40">
+                    <use href="./images/symbol-defs.svg#icon-social-4"></use>
+                </svg>
+            </a>
+            <a href="https://soundcloud.com/" class="footer-send__link" target="_blank">
+                <svg  class="footer-send-link__soundcloud" width="40" height="40">
+                    <use href="./images/symbol-defs.svg#icon-icon-10"></use>
+                </svg>
+            </a>
+            <a href="https://www.apple.com/ua/apple-podcasts/" class="footer-send__link" target="_blank">
+                <svg  class="footer-send-link__apple-podcast" width="40" height="40">
+                    <use href="./images/symbol-defs.svg#icon-apple-podcasts-icon"></use>
+                </svg>
+            </a>
+            <a href="https://overcast.fm/" class="footer-send__link" target="_blank">
+                <svg  class="footer-send-link__overcast" width="40" height="40">
+                    <use href="./images/symbol-defs.svg#icon-social-1"></use>
+                </svg>
+            </a>
+        </div>
+    </footer>
+    <script src="/script.js"></script>
+</body>
+</html>

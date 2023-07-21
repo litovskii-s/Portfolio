@@ -1,0 +1,35 @@
+.footer {
+  padding: 100px 50px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+.footer__logo {
+  font-size: 45px;
+  font-weight: 700;
+  color: var(--text-color);
+  letter-spacing: 0.05em;
+  margin-bottom: 20px;
+  position: relative;
+}
+.footer__nav {
+  font-family: "DM Sans";
+  font-size: 18px;
+  font-weight: normal;
+  line-height: 1.4;
+}
+.footer-nav__list {
+  padding-bottom: 10px;
+}
+.footer__send {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  gap: 17px;
+}
+.footer-send-link__soundcloud {
+  border-radius: 50%;
+}

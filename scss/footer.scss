@@ -1,0 +1,30 @@
+.footer {
+    padding: 100px 50px;
+    display: flex;
+    justify-content: space-between;
+
+    &__logo {
+        font-size: 45px;
+        font-weight: 700;
+        color: var(--text-color);
+        letter-spacing: 0.05em;
+        margin-bottom: 20px;
+        position: relative;
+    }
+    &__nav {
+        font-family: 'DM Sans';
+        font-size: 18px;
+        font-weight: normal;
+        line-height: 1.4;
+    }
+    &-nav__list {
+        padding-bottom: 10px;
+    }
+    &__send {
+        display: flex;
+        gap: 17px;
+    }
+    &-send-link__soundcloud {
+        border-radius: 50%;
+    }
+}
